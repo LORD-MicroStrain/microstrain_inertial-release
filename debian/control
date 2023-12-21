@@ -1,0 +1,12 @@
+Source: ros-noetic-microstrain-inertial-examples
+Section: misc
+Priority: optional
+Maintainer: Rob Fisher <rob.fisher@parker.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-cmake-modules, ros-noetic-microstrain-inertial-msgs, ros-noetic-roscpp, ros-noetic-roslint, ros-noetic-rospy, ros-noetic-sensor-msgs, ros-noetic-std-msgs
+Homepage: https://github.com/LORD-MicroStrain/microstrain_inertial
+Standards-Version: 3.9.2
+
+Package: ros-noetic-microstrain-inertial-examples
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-cmake-modules, ros-noetic-microstrain-inertial-msgs, ros-noetic-roscpp, ros-noetic-rospy, ros-noetic-sensor-msgs, ros-noetic-std-msgs
+Description: Example listener for Parker LORD Sensing inertial device driver ros_mscl (C++).
