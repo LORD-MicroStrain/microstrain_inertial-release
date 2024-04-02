@@ -30,7 +30,7 @@ endif()
 
 # Generate Service Files
 set(SRV_DIR "${COMMON_DIR}/srv")
-FILE(GLOB SRV_FILES RELATIVE "${SRV_DIR}"
+file(GLOB SRV_FILES RELATIVE "${SRV_DIR}"
     "${SRV_DIR}/*.srv")
 add_service_files(
   DIRECTORY ${SRV_DIR}
@@ -39,12 +39,13 @@ add_service_files(
 
 # Generate Message Files
 set(MSG_DIR "${COMMON_DIR}/msg")
-FILE(GLOB MSG_FILES RELATIVE "${MSG_DIR}"
+file(GLOB MSG_FILES RELATIVE "${MSG_DIR}"
     "${MSG_DIR}/*.msg")
 add_message_files(
   DIRECTORY ${MSG_DIR}
   FILES ${MSG_FILES}
 )
+
 generate_messages(
   DEPENDENCIES
   std_msgs
