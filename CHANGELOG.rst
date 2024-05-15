@@ -2,6 +2,11 @@
 Changelog for package microstrain_inertial_examples
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+4.3.0 (2024-05-15)
+------------------
+* Updates CV7 INS example yaml (`#331 <https://github.com/LORD-MicroStrain/microstrain_inertial/issues/331>`_)
+* Contributors: Rob
+
 4.2.0 (2024-04-04)
 ------------------
 
