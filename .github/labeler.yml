@@ -1,3 +1,0 @@
-# Add the New tag so that new issues are not marked as stale
-New:
-    - '.*'
